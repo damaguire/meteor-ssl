@@ -1,9 +1,9 @@
 Package.describe({
-  name: 'nourharidy:ssl',
-  version: '0.2.2',
+  name: 'maguire:ssl',
+  version: '0.2.3',
   summary: 'Sexy SSL support for Meteor',
   documentation: 'README.md',
-  git: 'https://github.com/nourharidy/meteor-ssl.git'
+  git: 'https://github.com/damaguire/meteor-ssl.git'
 });
 
 Package.onUse(function(api) {
