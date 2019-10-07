@@ -13,8 +13,11 @@ switchHTTPS = function(port){
 }
 if (Meteor.isClient) {
 	Meteor.startup(function(){
-		Template.registerHelper('isHTTPS', function(){
-			return isHTTPS();
-		})
+		try{
+			Template.registerHelper('isHTTPS', function(){
+				return isHTTPS();
+			})
+		} catch(e) {}
 	});
 }
+
